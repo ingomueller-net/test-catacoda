@@ -5,15 +5,19 @@
     "steps": [
       {
         "title": "Step 1",
-        "text": "step1.md"
+        "text": "step1.md",
+        "code": "background.sh"
       }
     ],
     "finish": {
       "text": "finish.md"
     }
   },
+  "intro": {
+    "text": "intro.md",
+    "credits": ""
+  },
   "environment": {
-    "hideintro": true,
     "uilayout": "terminal"
   },
   "backend": {
