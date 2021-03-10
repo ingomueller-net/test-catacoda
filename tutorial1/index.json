@@ -6,11 +6,17 @@
       {
         "title": "Step 1",
         "text": "step1.md",
-        "code": "background.sh"
+        "code": "foreground.sh"
       }
     ],
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": "pgcli.sh", "target": "/usr/local/bin/", "chmod": "+x"},
+        {"file": "psql.sh", "target": "/usr/local/bin/", "chmod": "+x"}
+      ]
     }
   },
   "intro": {
