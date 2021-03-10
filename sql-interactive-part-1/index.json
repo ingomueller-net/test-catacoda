@@ -7,7 +7,8 @@
     "steps": [
       {
         "title": "Step 1",
-        "text": "step1.md"
+        "text": "step1.md",
+        "code": "foreground.sh"
       },
       {
         "title": "Step 2",
@@ -38,12 +39,11 @@
       "text": "intro.md"
     },
     "assets": {
-    "host01": [
-      {
-        "file": "employee.zip",
-        "target": "~/"
-      }
-    ]
+      "host01": [
+        {"file": "employee.zip", "target": "~/"},
+        {"file": "pgcli.sh", "target": "/usr/local/bin/", "chmod": "+x"},
+        {"file": "psql.sh", "target": "/usr/local/bin/", "chmod": "+x"}
+      ]
     },
     "finish": {
       "text": "finish.md"
@@ -53,7 +53,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "kafka:2.4"
-
+    "imageid": "ubuntu:2004"
   }
 }
