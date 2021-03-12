@@ -22,6 +22,7 @@ well):
 Confirm that we have a connection and quit again:
 
 `\c`{{execute}}
+
 `exit`{{execute}}
 
 Finally, let's populate the database for later:

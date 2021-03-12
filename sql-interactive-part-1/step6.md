@@ -6,7 +6,7 @@ database, we can use aggregation functions.
 For this part of the tutorial, we use the database we imported in the
 beginning:
 
-`\c employees`{{execute}}
+`\c employee`{{execute}}
 
 Let's see how that database looks like by printing the list of tables:
 
