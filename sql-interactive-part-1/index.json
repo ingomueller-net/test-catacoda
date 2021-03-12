@@ -43,7 +43,7 @@
         {"file": "employee.zip", "target": "~/"},
         {"file": "populate.sh", "target": "~/", "chmod": "+x"},
         {"file": "pgcli.sh", "target": "/usr/local/bin/", "chmod": "+x"},
-        {"file": "pgcli/*", "target": "/root/.config/pgcli/"},
+        {"file": "pgcli/*", "target": "/root/.config/"},
         {"file": "psql.sh", "target": "/usr/local/bin/", "chmod": "+x"}
       ]
     },
