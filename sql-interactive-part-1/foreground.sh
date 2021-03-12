@@ -21,3 +21,9 @@ then
     echo "docker container $CONTAINER_NAME in unexpected state."
     exit 1
 fi
+
+# Wait until server is ready
+while ! docker exec $CONTAINER_NAME pg_isready
+do
+    sleep 1s
+done
