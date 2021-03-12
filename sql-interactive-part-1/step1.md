@@ -19,10 +19,15 @@ well):
 
 `pgcli.sh -h postgres-server -u postgres`{{execute}}
 
+Confirm that we have a connection and quit again:
+
+`\c`{{execute}}
+`exit`{{execute}}
+
+Finally, let's populate the database for later:
+
+`./populate.sh`{{execute}}
+
 We can now start with creating a database and connect to it:
-
-`CREATE DATABASE testdatabase;`{{execute}}
-
-`\c testdatabase`{{execute}}
 
 Everything is set up, so let's get started!
