@@ -41,6 +41,7 @@
     "assets": {
       "host01": [
         {"file": "employee.zip", "target": "~/"},
+        {"file": "populate.sh", "target": "~/", "chmod": "+x"},
         {"file": "pgcli.sh", "target": "/usr/local/bin/", "chmod": "+x"},
         {"file": "psql.sh", "target": "/usr/local/bin/", "chmod": "+x"}
       ]
